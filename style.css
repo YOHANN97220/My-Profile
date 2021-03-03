@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&display=swap');
+body {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-size: 17px;
+}
+h1, h2 {
+  color: #6C757D;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+p {
+  font-family: 'Bebas Neue', cursive;
+}
+
+ul {
+  font-family: 'Bebas Neue', cursive;
+  list-style: none;
+  padding-left: 0;
+}
+a {
+  color: #CED4DA;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover {
+  color: #6C757D
+}
+
+div {
+  display: block;
+}
+
+.img-circle {
+  border-radius: 50px;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px black;
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.btn-blue {
+  background-color:grey;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+  }
